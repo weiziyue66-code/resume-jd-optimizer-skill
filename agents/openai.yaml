@@ -1,0 +1,4 @@
+interface:
+  display_name: "简历JD优化器"
+  short_description: "根据目标岗位 JD 与真实经历，生成定向中文简历和匹配报告；不虚构经历或保证录用。"
+  default_prompt: "使用 $resume-jd-optimizer 读取我提供的 JD 和简历，分析岗位要求与我的经历匹配度，生成定向中文简历和匹配报告。"
