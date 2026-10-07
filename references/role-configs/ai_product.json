@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "role_id": "ai_product",
+  "name_zh": "AI 产品",
+  "tier": "primary",
+  "expression_focus": "业务问题、方案取舍、产品交付、质量/成本/延迟验证；有事实支撑才使用技术术语与模型指标",
+  "clusters": [
+    {
+      "cluster_id": "ai_product.scenario_definition",
+      "name_zh": "场景与需求定义",
+      "scope": "distinctive",
+      "keywords": ["场景拆解", "用户痛点", "价值评估", "可行性分析", "落地路径"]
+    },
+    {
+      "cluster_id": "ai_product.llm_app_design",
+      "name_zh": "大模型应用设计",
+      "scope": "distinctive",
+      "keywords": ["工作流设计", "Prompt工程", "RAG", "Agent", "模型边界", "能力封装"]
+    },
+    {
+      "cluster_id": "ai_product.evaluation_iteration",
+      "name_zh": "评测与迭代",
+      "scope": "distinctive",
+      "keywords": ["指标体系", "效果评测", "灰度验证", "问题迭代", "研发协同"]
+    }
+  ],
+  "action_verbs": ["拆解", "评估", "设计", "封装", "评测", "迭代", "协同", "验证"],
+  "typical_responsibilities": ["场景拆解与价值评估", "大模型应用方案设计（工作流/Prompt/RAG/Agent）", "效果评测与迭代"],
+  "typical_deliverables": ["PRD", "可行性分析", "工作流设计", "Prompt 方案", "评测指标与报告"],
+  "metric_examples": ["准确率", "响应延迟", "成本", "灰度转化", "用户满意度"],
+  "confusable_roles": {
+    "product_operations": "AI 产品侧重模型应用设计与评测；产品运营侧重增长与运营落地"
+  }
+}
