@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "role_id": "overseas_growth",
+  "name_zh": "海外用户/增长运营",
+  "tier": "primary",
+  "expression_focus": "基于区域用户与市场差异制定本地化增长策略，体现获客、留存及合作成效",
+  "clusters": [
+    {
+      "cluster_id": "overseas_growth.localization_ops",
+      "name_zh": "本地化运营",
+      "scope": "distinctive",
+      "keywords": ["本地化内容", "本土渠道", "区域策略", "文化适配", "本地合规"]
+    },
+    {
+      "cluster_id": "overseas_growth.growth_partnership",
+      "name_zh": "增长与合作",
+      "scope": "distinctive",
+      "keywords": ["用户增长", "渠道拓展", "本地合作", "跨文化协同", "区域ROI"]
+    }
+  ],
+  "action_verbs": ["制定", "策划", "拓展", "落地", "运营", "协同", "验证"],
+  "typical_responsibilities": ["制定区域增长策略", "拓展本土渠道", "策划本地化内容与活动", "跨文化协同合作", "区域 ROI 跟踪"],
+  "typical_deliverables": ["本地化运营方案", "区域增长策略", "渠道合作清单", "活动复盘", "区域 ROI 报告"],
+  "metric_examples": ["获客成本", "新增用户", "留存率", "区域 ROI", "渠道转化率"],
+  "confusable_roles": {
+    "product_operations": "产品运营偏产品功能驱动增长；海外增长偏区域市场与本地化渠道"
+  }
+}
