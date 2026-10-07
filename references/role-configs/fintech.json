@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "role_id": "fintech",
+  "name_zh": "金融科技",
+  "tier": "primary",
+  "expression_focus": "体现金融业务规则如何转化为系统需求、测试和流程改进，使用准确金融术语",
+  "clusters": [
+    {
+      "cluster_id": "fintech.fintech_product_ops",
+      "name_zh": "金融产品运营",
+      "scope": "distinctive",
+      "keywords": ["产品流程", "账户体系", "交易数据", "业务规则", "数据核对"]
+    },
+    {
+      "cluster_id": "fintech.system_testing_delivery",
+      "name_zh": "系统与测试落地",
+      "scope": "distinctive",
+      "keywords": ["系统测试", "需求验证", "灰度上线", "Bug反馈", "研发协同"]
+    },
+    {
+      "cluster_id": "fintech.compliance_risk",
+      "name_zh": "合规与风险控制",
+      "scope": "distinctive",
+      "keywords": ["业务合规", "数据安全", "监管报送", "风险识别", "内部控制"]
+    }
+  ],
+  "action_verbs": ["核对", "验证", "报送", "识别", "管控", "协同", "上线", "测试"],
+  "typical_responsibilities": ["金融产品流程与账户/交易数据核对", "系统测试与灰度上线", "合规与风险控制"],
+  "typical_deliverables": ["需求验证清单", "测试记录", "灰度方案", "数据核对报告", "合规报送"],
+  "metric_examples": ["交易成功率", "对账准确率", "上线缺陷率", "合规报送及时率"],
+  "confusable_roles": {
+    "product_operations": "金融科技偏金融业务系统化；产品运营偏通用产品增长",
+    "bank_operations": "银行运营偏柜面/后台运营流程；金融科技偏金融业务系统化与产品运营"
+  }
+}
