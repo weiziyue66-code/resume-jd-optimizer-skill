@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "role_id": "user_growth",
+  "name_zh": "用户增长",
+  "tier": "primary",
+  "expression_focus": "围绕拉新、激活、转化、留存和裂变呈现可验证的增长闭环；区分产品增长、效果广告与销售获客，不以单次投放、曝光量或销售额替代用户增长方法论。简历优先呈现直接影响增长指标的经历，再呈现投放、内容、销售等相邻能力。",
+  "clusters": [
+    {
+      "cluster_id": "user_growth.acquisition_conversion",
+      "name_zh": "获客与转化",
+      "scope": "distinctive",
+      "keywords": ["用户拉新", "获客", "渠道增长", "转化率", "落地页", "注册转化"]
+    },
+    {
+      "cluster_id": "user_growth.activation_retention",
+      "name_zh": "激活与留存",
+      "scope": "distinctive",
+      "keywords": ["用户激活", "次日留存", "七日留存", "用户召回", "流失分析", "用户生命周期"]
+    },
+    {
+      "cluster_id": "user_growth.experiment_funnel",
+      "name_zh": "增长实验与漏斗",
+      "scope": "distinctive",
+      "keywords": ["A/B测试", "增长实验", "漏斗分析", "归因分析", "假设验证", "指标拆解"]
+    },
+    {
+      "cluster_id": "user_growth.referral_mechanism",
+      "name_zh": "裂变与推荐机制",
+      "scope": "distinctive",
+      "keywords": ["裂变", "邀请机制", "转介绍", "K因子", "口碑传播", "推荐奖励"]
+    }
+  ],
+  "action_verbs": ["拆解", "设计", "测试", "优化", "归因", "激活", "召回", "验证"],
+  "typical_responsibilities": ["增长目标与漏斗拆解", "获客与转化策略", "激活留存与召回", "增长实验与效果归因", "裂变与推荐机制"],
+  "typical_deliverables": ["增长策略", "实验方案", "漏斗分析", "渠道归因报告", "用户召回方案", "裂变机制"],
+  "metric_examples": ["获客成本", "注册/付费转化率", "激活率", "次日/七日留存率", "召回率", "K因子"],
+  "confusable_roles": {
+    "marketing": "市场或效果广告更关注曝光、点击、线索和投放效率；用户增长要求能把获客与激活、转化、留存或裂变中的后续环节连接起来。",
+    "sales": "销售以成交和客户关系为核心；用户增长需要可复用的用户机制、漏斗或实验，不把个人销售额直接视为增长能力。",
+    "product_operations": "产品运营侧重功能采用、活动和产品反馈闭环；用户增长以增长目标和跨环节指标改善为主。",
+    "user_operations": "用户运营侧重存量用户的承接、关系维护、分层、活跃与复购；用户增长通常还覆盖拉新、转化、实验和归因。"
+  }
+}
