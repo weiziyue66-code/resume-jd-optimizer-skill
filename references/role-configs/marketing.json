@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "role_id": "marketing",
+  "name_zh": "市场营销",
+  "tier": "primary",
+  "expression_focus": "展示人群与渠道判断、策略和素材/活动交付、转化及投入产出；说明归因依据",
+  "clusters": [
+    {
+      "cluster_id": "marketing.strategy_insight",
+      "name_zh": "市场策略与用户洞察",
+      "scope": "distinctive",
+      "keywords": ["市场分析", "用户分层", "竞品调研", "品牌定位", "人群画像"]
+    },
+    {
+      "cluster_id": "marketing.channel_content_ops",
+      "name_zh": "渠道与内容运营",
+      "scope": "distinctive",
+      "keywords": ["内容策略", "渠道投放", "活动策划", "转化路径", "素材优化"]
+    },
+    {
+      "cluster_id": "marketing.roi_evaluation",
+      "name_zh": "效果评估与 ROI",
+      "scope": "distinctive",
+      "keywords": ["转化追踪", "数据复盘", "ROI核算", "投放优化", "效果归因"]
+    }
+  ],
+  "action_verbs": ["洞察", "定位", "策划", "投放", "优化", "复盘", "归因", "测算"],
+  "typical_responsibilities": ["市场与竞品洞察", "品牌/人群定位", "内容与渠道投放", "转化追踪与 ROI 复盘"],
+  "typical_deliverables": ["市场分析", "人群画像", "内容策略", "投放方案", "ROI 报告"],
+  "metric_examples": ["转化率", "ROI", "CPM/CPC", "曝光", "线索量"],
+  "confusable_roles": {
+    "product_operations": "市场营销偏品牌/投放/内容；产品运营偏产品功能增长"
+  }
+}
