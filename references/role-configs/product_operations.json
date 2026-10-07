@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "role_id": "product_operations",
+  "name_zh": "产品运营",
+  "tier": "primary",
+  "expression_focus": "用产品做增长，体现洞察如何转化为功能采用、运营策略和用户价值；不把协同功能落地写成独立定义产品方向",
+  "clusters": [
+    {
+      "cluster_id": "product_operations.user_growth_ops",
+      "name_zh": "用户运营与增长",
+      "scope": "distinctive",
+      "keywords": ["用户洞察", "分层运营", "拉新转化", "留存促活", "漏斗分析"]
+    },
+    {
+      "cluster_id": "product_operations.campaign_content_ops",
+      "name_zh": "活动与内容运营",
+      "scope": "distinctive",
+      "keywords": ["活动策划", "内容策略", "落地执行", "效果复盘", "渠道运营"]
+    },
+    {
+      "cluster_id": "product_operations.product_collaboration",
+      "name_zh": "产品落地与协同",
+      "scope": "distinctive",
+      "keywords": ["功能推动", "用户反馈", "产品优化", "跨部门协作", "商业价值"]
+    },
+    {
+      "cluster_id": "product_operations.data_driven_ops",
+      "name_zh": "数据分析与数据驱动",
+      "scope": "distinctive",
+      "keywords": ["用户行为分析", "指标拆解", "数据验证", "策略调整"]
+    }
+  ],
+  "action_verbs": ["洞察", "分层", "策划", "推动", "复盘", "验证", "拆解", "协同"],
+  "typical_responsibilities": ["用户分层与增长策略", "活动策划与落地", "功能推动与反馈闭环", "数据验证与策略调整"],
+  "typical_deliverables": ["运营策略", "活动方案", "用户洞察报告", "功能反馈清单", "数据复盘"],
+  "metric_examples": ["拉新/留存/转化", "漏斗转化率", "活动 ROI", "功能采用率"],
+  "confusable_roles": {
+    "product_manager": "产品经理侧重决定做什么与设计功能方案；产品运营侧重用产品做增长与运营落地"
+  }
+}
