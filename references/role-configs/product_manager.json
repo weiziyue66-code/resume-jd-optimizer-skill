@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "role_id": "product_manager",
+  "name_zh": "产品经理",
+  "tier": "secondary",
+  "expression_focus": "突出决定做什么、为什么做及如何设计，体现产品方向与功能方案，区别于采用/增长导向的产品运营",
+  "clusters": [
+    {
+      "cluster_id": "product_manager.planning_requirements",
+      "name_zh": "产品规划与需求管理",
+      "scope": "distinctive",
+      "keywords": ["用户研究", "竞品分析", "需求拆解", "优先级排序", "产品路线图"]
+    },
+    {
+      "cluster_id": "product_manager.design_delivery",
+      "name_zh": "产品设计与交付",
+      "scope": "distinctive",
+      "keywords": ["PRD", "原型设计", "功能定义", "跨部门评审", "项目排期"]
+    },
+    {
+      "cluster_id": "product_manager.iteration_validation",
+      "name_zh": "迭代与效果验证",
+      "scope": "distinctive",
+      "keywords": ["版本迭代", "上线跟进", "效果复盘", "数据验证", "优化迭代"]
+    }
+  ],
+  "action_verbs": ["研究", "拆解", "排序", "定义", "设计", "评审", "迭代", "验证"],
+  "typical_responsibilities": ["用户研究与竞品分析", "需求拆解与优先级", "PRD 与原型", "跨部门评审与排期", "版本迭代与效果验证"],
+  "typical_deliverables": ["PRD", "原型", "产品路线图", "评审记录", "迭代复盘"],
+  "metric_examples": ["功能采用率", "用户满意度", "上线质量", "需求交付周期"],
+  "confusable_roles": {
+    "product_operations": "产品经理侧重决定做什么与设计功能方案；产品运营侧重增长与运营落地"
+  }
+}
