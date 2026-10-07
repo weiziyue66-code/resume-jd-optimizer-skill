@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "role_id": "user_operations",
+  "name_zh": "用户运营",
+  "tier": "primary",
+  "expression_focus": "围绕用户承接、分层、服务、活跃、留存、复购和口碑呈现存量用户经营闭环；优先展示直接面向用户并改变用户体验或关系结果的经历，不把广告定向、素材优化、销售成交或泛活动执行自动归为用户运营。",
+  "clusters": [
+    {
+      "cluster_id": "user_operations.lifecycle_segmentation",
+      "name_zh": "生命周期与用户分层",
+      "scope": "distinctive",
+      "keywords": ["新客承接", "活跃用户", "沉睡用户", "高价值用户", "用户分层", "用户生命周期"]
+    },
+    {
+      "cluster_id": "user_operations.community_engagement",
+      "name_zh": "社群与用户活跃",
+      "scope": "distinctive",
+      "keywords": ["社群运营", "群内互动", "内容科普", "活动激活", "社群氛围", "用户参与"]
+    },
+    {
+      "cluster_id": "user_operations.service_feedback",
+      "name_zh": "用户服务与反馈闭环",
+      "scope": "distinctive",
+      "keywords": ["用户承接", "用户维护", "问题处理", "差评处理", "用户反馈", "服务流程"]
+    },
+    {
+      "cluster_id": "user_operations.retention_referral_ugc",
+      "name_zh": "复购、转介绍与口碑",
+      "scope": "distinctive",
+      "keywords": ["复购", "转介绍", "用户口碑", "UGC", "用户故事", "用户召回"]
+    }
+  ],
+  "action_verbs": ["承接", "分层", "维护", "激活", "召回", "服务", "沉淀", "复盘"],
+  "typical_responsibilities": ["新用户承接与服务", "用户分层与生命周期运营", "社群活跃与内容运营", "用户反馈闭环", "复购、转介绍与UGC沉淀"],
+  "typical_deliverables": ["用户分层策略", "服务SOP", "社群运营方案", "用户活动方案", "反馈问题清单", "口碑与UGC素材库"],
+  "metric_examples": ["承接率", "活跃率", "留存率", "复购率", "转介绍率", "问题解决率", "满意度", "UGC产出量"],
+  "confusable_roles": {
+    "user_growth": "用户增长通常覆盖拉新、转化、实验和归因；用户运营更侧重已经进入体系的用户承接、关系经营、活跃、留存与复购。",
+    "product_operations": "产品运营侧重功能采用、活动和产品反馈；用户运营的直接对象是用户关系与生命周期。",
+    "marketing": "市场运营更关注内容传播、品牌曝光或线索获取；只有直接承接用户并形成服务、活跃、留存或口碑闭环时，才归入用户运营。",
+    "sales": "销售以成交为主要结果；用户运营以持续服务、关系维护、复购、转介绍和口碑沉淀为主要结果。"
+  }
+}
