@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "role_id": "bank_operations",
+  "name_zh": "银行运营/柜员",
+  "tier": "secondary",
+  "expression_focus": "根据实际 JD 区分后台运营与柜面业务，体现流程、准确性、服务和合规；不套用不相关投研或投行业务术语",
+  "clusters": [
+    {
+      "cluster_id": "bank_operations.transaction_processing",
+      "name_zh": "业务流程与交易处理",
+      "scope": "distinctive",
+      "keywords": ["账户管理", "交易处理", "数据报送", "账务核对", "日清日结", "柜面操作"]
+    },
+    {
+      "cluster_id": "bank_operations.risk_compliance",
+      "name_zh": "风险与合规管控",
+      "scope": "distinctive",
+      "keywords": ["合规审查", "风险识别", "内部控制", "监管要求", "操作规范", "反洗钱"]
+    },
+    {
+      "cluster_id": "bank_operations.customer_service_support",
+      "name_zh": "客户服务与运营支持",
+      "scope": "distinctive",
+      "keywords": ["客户接待", "业务咨询", "诉求处理", "服务质量", "跨部门协同"]
+    }
+  ],
+  "action_verbs": ["处理", "核对", "报送", "审查", "识别", "接待", "咨询", "协同"],
+  "typical_responsibilities": ["账户与交易处理", "账务核对与数据报送", "合规审查与风险识别", "客户接待与业务咨询"],
+  "typical_deliverables": ["交易处理记录", "对账报告", "数据报送", "合规审查记录", "服务记录"],
+  "metric_examples": ["交易差错率", "对账准确率", "合规检查通过率", "客户满意度"],
+  "confusable_roles": {
+    "fintech": "银行运营偏柜面/后台运营流程；金融科技偏金融业务系统化与产品运营"
+  }
+}
